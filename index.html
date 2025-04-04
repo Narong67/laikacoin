@@ -3,65 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laika Coin - The Space Adventure Crypto</title>
+    <title>Laika Coin - The Future of Crypto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: url('space_background.jpg') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .hero img {
-            width: 150px;
-            border-radius: 50%;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 30px;
-            color: white;
-            background: #ff4500;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        .price-box {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
+        body { background-color: black; color: white; }
     </style>
 </head>
-<body>
-    <div class="container">
-        <div class="hero">
-            <img src="laika_logo.png" alt="Laika Coin">
-            <h1>Welcome to Laika Coin</h1>
-            <p>🚀 A tribute to Laika, the first space dog, helping stray dogs with crypto donations.</p>
-            <a href="#buy" class="btn">Buy Laika Coin (Coming Soon)</a>
-        </div>
+<body class="flex flex-col items-center justify-center min-h-screen text-center">
 
-        <div class="price-box">
-            <h2>Current Price: <span id="price">Updating...</span></h2>
-            <p>(Live price updates coming soon)</p>
+    <!-- Hero Section -->
+    <section class="space-y-6">
+        <h1 class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">
+            Laika Coin 🚀
+        </h1>
+        <p class="text-lg md:text-2xl">A tribute to Laika, the first space dog, supporting stray dogs worldwide.</p>
+        <div class="space-x-4">
+            <a href="#" class="px-6 py-3 bg-blue-500 rounded-full text-lg font-semibold hover:bg-blue-600">Buy Laika Coin</a>
+            <a href="#" class="px-6 py-3 bg-gray-700 rounded-full text-lg font-semibold hover:bg-gray-600">Donate</a>
         </div>
+    </section>
 
-        <div id="mission">
-            <h2>Our Mission</h2>
-            <p>We aim to honor Laika’s legacy by supporting animal shelters and helping stray dogs worldwide.</p>
-        </div>
-
-        <div id="donate">
-            <h2>Join the Mission</h2>
-            <p>Your support helps provide food, shelter, and care for stray dogs.</p>
-            <a href="#donate" class="btn">Donate to Help Dogs</a>
-        </div>
-    </div>
 </body>
 </html>
